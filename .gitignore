@@ -1,0 +1,33 @@
+# dependencies
+node_modules
+yarn.lock
+package-lock.json
+
+# Editor folders
+.cache
+.eslintCache
+.vscode
+.idea
+
+# production
+dist
+lib
+build
+demo-dist
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.vite
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*

@@ -1,0 +1,46 @@
+{
+  "name": "react-filerobot-image-editor",
+  "version": "4.3.8",
+  "license": "MIT",
+  "author": "Scaleflex",
+  "homepage": "https://github.com/scaleflex/filerobot-image-editor#readme",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scaleflex/filerobot-image-editor#readme"
+  },
+  "keywords": [
+    "Image editing react component",
+    "React Image Editor",
+    "image editor",
+    "filerobot image editor",
+    "edit image",
+    "modify image",
+    "update image",
+    "finetune",
+    "filters",
+    "weatermark",
+    "resize",
+    "annotate"
+  ],
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.17.2",
+    "@scaleflex/icons": "1.0.0-beta.99",
+    "@scaleflex/ui": "1.0.0-beta.99",
+    "konva": "8.4.2",
+    "prop-types": "15.7.2",
+    "react-konva": "18.2.4"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": ">=5.3.5"
+  },
+  "scripts": {
+    "build:lib": "rimraf lib && cross-env BABEL_ENV=production NODE_ENV=production babel src -d lib --config-file ../../babel.config.json -D"
+  }
+}
